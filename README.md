@@ -1,6 +1,10 @@
 # docker-compose-mysql-crud
 Spring CRUD with MySQL Database and containerized with docker compose
 
+## How to launch application
+
+In your terminal, move to root folder of project "SimpleCrud" and run the following command: docker-compose up --build
+
 ## First time run
 
 Please verify if the application propertie, in file "application.properties", "spring.jpa.hibernate.ddl-auto" is setted to create
